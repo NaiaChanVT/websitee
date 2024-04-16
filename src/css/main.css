@@ -17,18 +17,22 @@ html{
 
 a{
   text-decoration: none;
-  color: white;
+  color: #FFF;
+}
+
+.testabc{
+  color: #707070;
 }
 
 a:hover{
-  color: #fbbdcc;
+  color: #695CFE;
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-color: #052445;
-  color: white;
+  background-color: #E4E9F7;
+  color: #707070;
   font-family: 'Poppins';
 }
 
@@ -41,7 +45,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #fbbdcc;
+  background-color: #695CFE;
   outline: 1px solid slategrey;
 }
 
@@ -49,7 +53,7 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   border-radius: 25px 25px 25px 25px;
   justify-content: space-between;
-  background-color: #031B34;
+  background-color: #15172f;
   color: white;
   padding: 1% 2%;
   font-family: 'Potta One'
@@ -87,7 +91,7 @@ body::-webkit-scrollbar-thumb {
 
 .nav-bar-links li a:hover{
   cursor: pointer;
-  color: #fbbdcc;
+  color: #695CFE;
 }
 
 .nav-bar-toggle{
@@ -172,7 +176,7 @@ body::-webkit-scrollbar-thumb {
   padding-top: 10px;
   padding-bottom: 10px;
   justify-content: space-between;
-  background: #272928;
+  background: #FFF;
   font-family: 'Potta One';
 }
 
@@ -199,12 +203,12 @@ body::-webkit-scrollbar-thumb {
 
 .footer-links ul li a{
   text-decoration: none;
-  color: white;
+  color: #707070;
 }
 
 .footer-links ul li a:hover{
   cursor: pointer;
-  color: #fbbdcc;
+  color: #695CFE;
 }
 
 .invite-link {
@@ -218,7 +222,7 @@ body::-webkit-scrollbar-thumb {
   cursor: pointer;
   border-radius: 10px;
   align-items: center;
-  background: #fbbdcc;
+  background: #695CFE;
   overflow: hidden;
   box-shadow: 20px black;
   transition: transform .5s ease;
